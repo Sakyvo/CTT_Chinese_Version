@@ -2,8 +2,7 @@
 icon: custom/cheatbreaker
 ---
 
-# CheatBreaker
-
+# CheatBreaker {#cheatbreaker }
 在官方停更之后，几位开发者（主要是 Tellinq 和 Shon）以非官方形式继续维护 CheatBreaker。它带一个启动器，可以启动 1.7 或 1.8 版本的 CheatBreaker。
 
 * :material-web: <https://cheatbreaker.net>
@@ -12,8 +11,7 @@ icon: custom/cheatbreaker
     * 务必使用 CleanBuild：发布文件名永远相同，默认不会重新下载
 * :octicons-book-16: <https://docs.cheatbreaker.net>
 
-# 特性
-
+# 特性 {#features }
 * 支持现代版本 Java（写作时为 23），[使用更新的版本有助于内存占用、缩放与性能](https://github.com/Mukul1127/Minecraft-Performance-Flags-Benchmarks)。
 * 模组开关快捷键（方便按当前游戏模式快速开关 Chat、Armor HUD、Scoreboard 等）
 * 可以把模组标签剥掉只留数字（比如 FPS 和药水效果）

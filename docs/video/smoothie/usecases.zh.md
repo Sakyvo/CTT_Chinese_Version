@@ -2,12 +2,10 @@
 icon: material/file-eye
 ---
 
-# 使用场景示例
-
+# 使用场景示例 {#use-case-examples }
 掌握了 Smoothie 的全部技巧后，它就是一把真正的瑞士军刀。以下列出我亲眼见过的、Smoothie 表现优异的所有实际场景。
 
-## 高 FPS 的 VEGAS Pro 剪辑
-
+## 高 FPS 的 VEGAS Pro 剪辑 {#high-fps-vegas-pro-editing }
 （这也适用于 Premiere Pro——它的预渲染/代理能力快得多，但帧混合效果客观上更差。）
 
 假设我以 480 FPS 录制，并想做帧混合、以 60 FPS 导出：
@@ -28,8 +26,7 @@ icon: material/file-eye
 
 唯一的缺点是做 velocity / 慢放之类的效果时会显得不连贯——但没什么能阻止你把那一段换回原始 480 FPS 素材。
 
-## 替代 Flowframes（先补帧到 60+fps 再帧混合）
-
+## 替代 Flowframes（先补帧到 60+fps 再帧混合） {#flowframes-for-60fps-interp-then-frame-blending }
 以录制 [Apex Legends 游戏集锦](https://youtu.be/tItOJFwILOc)这种高 GPU 负载场景为例：
 
 假设我们以 180fps 录制：
@@ -49,8 +46,7 @@ icon: material/file-eye
 
 享受丝滑的击杀镜头吧 [:)](https://youtu.be/3cbfKyQktRY)
 
-## 做渲染测试
-
+## 做渲染测试 {#doing-render-tests }
 献给 [`#video-dicussion`](https://discord.gg/CTT) 频道的各位 :)
 
 与其：

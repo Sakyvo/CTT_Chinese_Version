@@ -21,8 +21,7 @@ icon: custom/lunarclient
 *   `Show Stuck Arrows`：关
 *   `Hide Placed Skulls`：开
 
-### Lunar 各模组的性能开销
-
+### Lunar 各模组的性能开销 {#lunar-mods-performance-impact }
 _*如果一个模组对你没有任何用途，那你为什么还要开着它呢_ — Tellinq_
 
 * 🟢 Freelook——开着也无开销

@@ -3,8 +3,7 @@ description: Smoothie 配方（配置文件）说明
 icon: simple/googlesearchconsole
 ---
 
-# Smoothie 配方
-
+# Smoothie 配方 {#smoothie-recipe }
 配方（配置文件）是 Smoothie 学习曲线上最陡的部分——读完这篇，再拿几段短素材瞎折腾一下，是最好的上手方式。
 
 开关型取值（布尔值）为了方便准备了一堆别名，建议直接简写 y/n 或 1/0。
@@ -402,8 +401,7 @@ Windows Terminal 与本功能配合不佳。
 :   RIFE 模型文件夹的路径，不随 Smoothie 附带，见[安装说明](./installation.md#installing-rife-models)。
 
 
-## 使用多个配方文件
-
+## 使用多个配方文件 {#using-multiple-recipe-files }
 1. 复制一份 `recipe.ini`，改成别的名字
 2. 复制一份你日常用来启动 Smoothie 的快捷方式
 3. 在参数中加 `--recipe name.ini`（对 [Send To 快捷方式](./installation.md#making-a-send-to-shortcut)，确保它在 `-i` 之前——`-i` 必须是最后一个参数）。

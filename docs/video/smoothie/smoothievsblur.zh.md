@@ -6,16 +6,14 @@ icon: custom/blur
 
 相关：你可以用[转换器](./converter/index.html)把 ``.blur-config.cfg`` 文件转换成 Smoothie 的 `recipe.ini` 文件
 
-## 哪个更好 / 我该用哪个？
-
+## 哪个更好 / 我该用哪个？ {#which-is-bettershould-i-use }
 blur 和 Smoothie 的底层非常相似，都基于 VapourSynth 和一批几乎相同的插件。本页列出你会遇到的所有差异，方便你自己做判断。
 
 !!! warning "本页面向 blur 老用户"
 
     这里解释的是我在开发 Smoothie 时从 blur 汲取灵感所做出的设计取舍。如果你从没用过 blur，读下去意义不大（除非你想让某个配方和某个 blur 配置看起来一模一样）。
 
-## Smoothie 的优点
-
+## Smoothie 的优点 {#smoothie-pros }
 * Smoothie 的[配方取值是可选的](./recipe.md#smoothie-recipe)
 
 * Smoothie 用 ffplay 实现了流畅得多的[预览窗口](./recipe.md#preview-window)
@@ -28,8 +26,7 @@ blur 和 Smoothie 的底层非常相似，都基于 VapourSynth 和一批几乎�
 
 * 海量 [CLI 参数](./cli.md)
 
-## blur 的优点
-
+## blur 的优点 {#blur-pros }
 * 为 macOS ARM 和 Linux 预打包（Smoothie 也能做到，只是需要时间和热情）
 
 * 可以在示例视频的某一帧上即时预览配置效果
@@ -44,14 +41,12 @@ blur 和 Smoothie 的底层非常相似，都基于 VapourSynth 和一批几乎�
 
 * 桌面通知
 
-## 术语对照
-
+## 术语对照 {#terms-used }
 * blur 配置里有个叫 `- blur` 的分类，我觉得名字起得含糊，已改名为更有表达力的 `[frame blending]`
 
 * 上面那个分类里的 `blur amount` 也已改名为 `intensity`。我还在找更好的叫法，[有想法请告诉我 👁👁](../../contact.md#couleur)
 
-### 已被反哺回 blur 的特性
-
+### 已被反哺回 blur 的特性 {#features-now-back-ported-to-blur }
 从 [beta v1.92](https://github.com/f0e/blur/releases) 开始，许多曾让 Smoothie 与众不同的特性已经进了 blur：
 
 * ~~帧混合在 Smoothie 上更快~~ [tekno 直接把代码抄过去了](https://github.com/f0e/blur/blob/master/plugins/blending.py)
@@ -60,15 +55,13 @@ blur 和 Smoothie 的底层非常相似，都基于 VapourSynth 和一批几乎�
 
 * ~~Smoothie 是单一全局配置，blur 会先看输入文件同目录下有没有配置~~ 在 blur v1.92 里 tekno 加了目录无配置时回落全局配置的功能，我也该抄过来 😋
 
-## 内部构成
-
+## 内部构成 {#internals }
 [blur](https://f0e.github.io/blur)、[Smoothie](./index.md) 和 [teres](https://github.com/animafps/teres) 都用到了这两个程序：
 
 * VapourSynth——视频滤镜库，以 Python 脚本为前端
 * FFmpeg——把 VSPipe 输出的未压缩 Y4M 流封装成编码视频
 
-## 时间线
-
+## 时间线 {#timeline }
 * 2020 年 6 月：blur 在 GitHub 上创建
 
 * 2022 年 1 月：blur 自 v1.8 后进入休眠，我 fork 了 blur，用 Python 写成 smoothie

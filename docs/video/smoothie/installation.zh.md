@@ -3,10 +3,8 @@ description: Smoothie 安装指南
 icon: material/folder-download
 ---
 
-# 安装 Smoothie
-
-## 依赖
-
+# 安装 Smoothie {#installing-smoothie }
+## 依赖 {#dependencies }
 * [FFmpeg](https://ffmpeg.org)，必须位于 PATH 或 smoothie-rs 所在目录中，安装方法见[这里](../ffmpeg/index.md#installation)
     * Smoothie 还会用到 [ffprobe](https://ffmpeg.org/ffprobe.html#Description) 和 [ffplay](https://ffmpeg.org/ffplay.html#Description)，它们应已随 FFmpeg 一起安装
 
@@ -41,8 +39,7 @@ icon: material/folder-download
 
 === "Windows"
 
-    ## 自动安装器
-
+    ## 自动安装器 {#automatic-installer }
     [点击这里下载最新版 Smoothie 安装器](https://github.com/couleur-tweak-tips/SmoothieInstaller/releases/latest/download/SmoothieInstaller.exe)
 
     它会完成以下事项：
@@ -50,8 +47,7 @@ icon: material/folder-download
     - 安装 Visual C++ Redistributables
     - 在开始菜单和 Send To（发送到）中创建快捷方式
 
-    ## 手动安装
-
+    ## 手动安装 {#manual-installation }
     本教程涵盖 Smoothie 与 RIFE 模型的手动安装（目前 RIFE 模型没有自动安装器）。
 
     <iframe width="688" height="387" src="https://www.youtube-nocookie.com/embed/RfPDgoMuSWg?start=20&color=white" frameborder=0 allowfullscreen></iframe>
@@ -65,16 +61,14 @@ icon: material/folder-download
     把 `smoothie-rs` 文件夹解压到任意位置，然后在其中运行 `launch.cmd` 即可启动 GUI 模式。
 
 
-    # 创建 [Send To（发送到）](../sendto.md)快捷方式
-
+    # 创建 [Send To（发送到）](../sendto.md)快捷方式 {#making-a-send-to-shortcut }
     进入 `...\smoothie-rs\bin`，对 `smoothie-rs.exe` 按 <kbd>SHIFT+右键</kbd>，选择“Copy Path（复制路径）”。
 
     在 `%APPDATA%\Microsoft\Windows\SendTo` 中创建一个指向 <smoothie-rs文件夹\bin\smoothie-rs.exe> 的快捷方式，在目标栏末尾加一个空格和 ` --tui -i`。
 
     如果 Smoothie 崩溃，可以在 smoothie-rs 可执行文件路径后加 `-v` 参数（即 ` -v --tui -i`）开启详细日志，看看哪里出了问题。
 
-    # 安装 [RIFE 模型](./recipe.md#pre-interp)
-
+    # 安装 [RIFE 模型](./recipe.md#pre-interp) {#installing-rife-models }
     1. RIFE 模型以 ZIP 形式分发，内含以模型版本命名的文件夹，
     2. 把 zip 解压到 smoothie-rs 文件夹下一个名为 `rife models` 的新文件夹，
     3. 在配方中将 [`[pre-interp] model:`](./recipe.md#pre-interp) 设为该文件夹名即可启用某个模型

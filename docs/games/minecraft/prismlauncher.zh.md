@@ -2,8 +2,7 @@
 icon: custom/prismlauncher
 ---
 
-# PrismLauncher
-
+# PrismLauncher {#prismlauncher }
 这个启动器可以管理多个“实例”，相当于同时拥有多个 `.minecraft` 文件夹：
 
 * Minecraft 账号全局管理，启动某个实例前再选择用哪个
@@ -16,15 +15,13 @@ icon: custom/prismlauncher
 * :material-web: <https://prismlauncher.org>
 * :simple-github: <https://github.com/PrismLauncher/PrismLauncher>
 
-## 整合包
-
+## 整合包 {#modpacks }
 可以从 :simple-modrinth:{.mr} [Modrinth](https://modrinth.com/) 和 :simple-curseforge: [CurseForge](https://www.curseforge.com/) 安装、更新单个模组、资源包、光影和整合包。
 
 如果你在找 1.21.4 Fabric 整合包，推荐看看我的 [simple-mod-pack](https://modrinth.com/project/simple-mod-pack)：我把能找到的每个性能向整合包里的模组和配置项都揉了进来，再加上若干改善生活质量的模组，过于主观的默认项则保持关闭（你可以在模组列表里自行重新开启）。
 
 
-## 在多个实例之间共享子文件夹
-
+## 在多个实例之间共享子文件夹 {#sharing-instance-subfolders-across-multiple-instances }
 假设你有多个实例、但只有一个 resourcepacks 文件夹，怎么让这些实例不复制文件就共用同一个文件夹？
 
 符号链接（symbolic link）可以做到——你可以把它理解成一个指向别处文件夹的快捷方式。

@@ -3,9 +3,7 @@ description: 安装与配置 DebugMode frameserver，供 blur/Smoothie 使用
 icon: material/server-network
 ---
 
-# 从 NLE 导出到 Smoothie
-
-
+# 从 NLE 导出到 Smoothie {#exporting-from-an-nle-to-smoothie }
 !!! warning "不适合大多数人"
 
     因为它可能非常慢，我不推荐大家用这条路——如果你有非常特殊的需求，可以试试看。
@@ -18,28 +16,23 @@ DebugMode FrameServer 让你的视频编辑器把项目导出为一个虚拟的�
 
 :material-minus: 用它渲染可能慢得令人发指
 
-## 下载
-
+## 下载 {#download }
 到 [DebugMode 官网](https://www.debugmode.com/frameserver.html)下载。
 
-# 安装
-
-### 1. 接受[许可协议](https://www.gnu.org/licenses/gpl-3.0.html)
+# 安装 {#installation }
+### 1. 接受[许可协议](https://www.gnu.org/licenses/gpl-3.0.html) {#1-accept-the-license }
 ![许可协议](../../assets/images/video/smoothie/debugmode_license.png)
 
-### 2. 勾选你拥有的视频编辑器
-
+### 2. 勾选你拥有的视频编辑器 {#2-select-the-video-editors-you-have }
 ![许可协议](../../assets/images/video/smoothie/debugmode_plugins.png)
 
-### 3. 填写 <u>DebugMode FrameServer</u> 的安装目录，保持默认即可：
-
+### 3. 填写 <u>DebugMode FrameServer</u> 的安装目录，保持默认即可： {#3-indicate-the-debugmode-frameserver-installation-directory-the-default-is-fine }
 ![许可协议](../../assets/images/video/smoothie/debugmode_installdir.png)
 
 !!! warning "请仔细阅读以下步骤"
     一路狂点“下一步”会把插件装进错误的目录。你**必须**手动复制你视频编辑器的安装路径。
 
-### 4. 填写 <u>VEGAS Pro</u> 的安装目录，查找方法如下：
-
+### 4. 填写 <u>VEGAS Pro</u> 的安装目录，查找方法如下： {#4-indicate-the-vegas-pro-installation-directory-find-it-this-way }
 ![](../../assets/images/video/smoothie/debugmode_vegasinstalldirprompt.png)
 
 
@@ -55,26 +48,22 @@ DebugMode FrameServer 让你的视频编辑器把项目导出为一个虚拟的�
 
 ![](../../assets/images/video/smoothie/debugmode_vegasdir.png)
 
-### 5. 填写 <u>Adobe Premiere Pro</u> 的安装目录：
-
+### 5. 填写 <u>Adobe Premiere Pro</u> 的安装目录： {#5-indicate-the-adobe-premiere-pro-installation-directory }
 同上，对 Premiere Pro 做同样的操作。
 
-### 6. 安装 Dokan
-
+### 6. 安装 Dokan {#6-install-dokan }
 它会安装用于生成虚拟文件的 Dokan 库，<u>你不需要安装</u>可选的开发插件。
 
 ![](../../assets/images/video/smoothie/debugmode_dokandep.png)
 
-### 7. 选择渲染模板
-
+### 7. 选择渲染模板 {#7-choosing-a-render-template }
 在 VEGAS 里你需要选一个音频码率。
 
 ![](../../assets/images/video/smoothie/debugmode_template.png)
 
 VEGAS 默认是 48kHz（按 <kbd>CTRL+ENTER</kbd> 打开 Project Settings -> Audio 选项卡）。
 
-### 8. 配置 Debugmode Frameserver
-
+### 8. 配置 Debugmode Frameserver {#8-configuring-debugmode-frameserver }
 你需要拼一条命令，下面是拼装所需的全部知识。
 
 如果你希望 Smoothie 跑完后窗口保持打开（比如崩溃时能来得及看报错），命令开头加上 `cmd /k `。

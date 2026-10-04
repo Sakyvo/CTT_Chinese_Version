@@ -3,8 +3,7 @@ description: Smoothie 常见问题及解决方法
 icon: material/lifebuoy
 ---
 
-# 故障排除
-
+# 故障排除 {#troubleshooting }
 排查问题时，请务必读完**整条报错信息**——多数时候，红字上方的那段文字才是在解释问题所在。
 
 这里列了一些常见错误和解决办法：
@@ -47,12 +46,10 @@ icon: material/lifebuoy
 
 :   确认视频路径里没有非英文的特殊字符。问题可能就出在文件名上，试试重命名。
 
-#### `Warning: Failed to load [...]\smoothie-rs\bin\vapoursynth64\plugins\librife.dll. GetLastError() returned 126. The file you tried to load or one of its dependencies is probably missing.`
-
+#### `Warning: Failed to load [...]\smoothie-rs\bin\vapoursynth64\plugins\librife.dll. GetLastError() returned 126. The file you tried to load or one of its dependencies is probably missing.` {#warning-failed-to-load-smoothie-rsbinvapoursynth64pluginslibrifedll-getlasterror-returned-126-the-file-you-tried-to-load-or-one-of-its-dependencies-is-probably-missing }
 :   你在虚拟机里运行，或者没装 Vulkan 运行库。
 
-### 错误依旧存在，或不在这份列表里
-
+### 错误依旧存在，或不在这份列表里 {#the-error-is-persisting-or-not-listed-here }
 :   请[到我们的 Discord 发帖求助](https://discord.gg/CTT)，或[联系我](../../contact.md#couleur)
 
 <br>

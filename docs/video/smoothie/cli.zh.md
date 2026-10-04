@@ -3,9 +3,7 @@ description: Smoothie 各个 CLI 参数的说明
 icon: octicons/terminal-16
 ---
 
-# 命令行参数
-
-
+# 命令行参数 {#command-line-arguments }
 `-i/--input`：文件路径
 
 :   指定输入视频文件路径，含空格时请加引号。

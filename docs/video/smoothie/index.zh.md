@@ -32,8 +32,7 @@ icon: custom/smoothie
 ![](/assets/images/video/smoothie/smoothie-gui.webp){ align=right width=200}
 
 
-## Smoothie 是什么？
-
+## Smoothie 是什么？ {#what-is-smoothie }
 === "面向用户"
 
     Smoothie 可以为游戏录像添加动态模糊，功能与 [smart resampling（智能重采样）](./recipe.md#frame-blending) 和 [RSMB](./recipe.md#flowblur) 类似。
@@ -45,8 +44,7 @@ icon: custom/smoothie
 
     Smoothie 是 [blur](https://github.com/f0e/blur) 的跨平台分支，现已用 Rust [重写](https://github.com/couleur-tweak-tips/Smoothie#readme)。
 
-## 为什么要用 Smoothie？
-
+## 为什么要用 Smoothie？ {#why-should-i-use-smoothie }
 在以下软件 / 功能面前，Smoothie 可能是更好的选择。
 
 它们都可以自由开关——你可以在[配方](./recipe.md)中自行决定是否禁用：
@@ -99,8 +97,7 @@ icon: custom/smoothie
 * [超分到 `4K`](../ffmpeg/upscaling.md)
 
 
-## 如何使用 Smoothie
-
+## 如何使用 Smoothie {#how-to-use-smoothie }
 从开始菜单启动 Smoothie 后，你有两个选择：
 
 * 直接把视频拖放到窗口上

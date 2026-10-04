@@ -14,8 +14,7 @@ icon: custom/optifine
 * 如果 GPU 不好，可以考虑用 `1280x720` 分辨率玩，能显著提升性能；
 * 可以打开 Smooth FPS（平滑帧率）来压低 Minecraft 的 GPU 占用（比如给 OBS 的 NVENC 编码腾资源）。
 
-### 进入 ESC > 选项 > 视频设置（Video Settings）。
-
+### 进入 ESC > 选项 > 视频设置（Video Settings）。 {#go-to-esc-options-video-settings }
 * 视频设置（Video Settings）
     * `Graphics`（图像）：流畅
     * `Render Distance`（渲染距离）：4-8
